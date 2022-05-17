@@ -38,3 +38,10 @@ python manage.py runserver
    DB_PORT=3306
    DEBUG=True
    ```
+2. Chạy lệnh : python manage.py makemigrations
+3. Chạy lệnh : python manage.py migrate 
+4. Chạy lệnh : python manage.py createsuperuser để tạo tài khoản admin 
+   email: bookmeeting@gmail.com
+   password: gõ thôi không cần nhìn
+5. Khởi động server: python manage.py runserver
+
